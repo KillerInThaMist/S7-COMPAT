@@ -35,6 +35,7 @@ class CfgAmmo {
 	class FIR_AWS_AerobaticSmoke_White;
 	class FIR_AWS_SmokeShell: FIR_AWS_AerobaticSmoke_White {
 		effectsSmoke = "UK3CB_SmokeShellBlueEffect";
+        timeToLive = 90;
 	}
 
 	class MissileBase;
