@@ -1,5 +1,14 @@
 class CfgVehicles {
-    /*class RHS_AH64_base;
+	class NATO_BOX_Base;
+	class Box_NATO_Ammo_F : NATO_BOX_Base
+	{
+		maximumLoad = 2500;
+	};
+	class Box_NATO_Grenades_F : NATO_BOX_Base
+	{
+		maximumLoad = 1500;
+	};
+	/*class RHS_AH64_base;
     class RHS_AH64D: RHS_AH64_base {
         class Turrets{
             class MainTurret {
@@ -27,4 +36,4 @@ class CfgVehicles {
             };
         };
     };
-};
+}

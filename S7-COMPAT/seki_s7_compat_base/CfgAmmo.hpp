@@ -1,8 +1,5 @@
 class CfgAmmo {
-	class GrenadeHand;
-	class SmokeShell: GrenadeHand {
-		effectsSmoke = "UK3CB_SmokeShellBlueEffect";
-	}
+	class SmokeShell;
 	class SmokeShellBlue;
 	class SmokeShellGreen;
 	class SmokeShellOrange;
@@ -31,11 +28,6 @@ class CfgAmmo {
 		simulation = "shotSmoke";
 		deflectionSlowDown = 0.25;
 	};
-
-	class FIR_AWS_AerobaticSmoke_White;
-	class FIR_AWS_SmokeShell: FIR_AWS_AerobaticSmoke_White {
-		effectsSmoke = "UK3CB_SmokeShellBlueEffect";
-	}
 
 	class MissileBase;
 	class Missile_AGM_02_F;

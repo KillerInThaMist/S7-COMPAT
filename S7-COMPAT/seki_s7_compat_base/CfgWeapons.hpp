@@ -11,8 +11,9 @@ class CfgWeapons {
 		weaponLockSystem = 0;
 	};
 
-    class rhs_weap_HellfireLauncher: Missile_AGM_02_Plane_CAS_01_F  {};
-	class RHS_weap_AGM114K_base_Launcher: rhs_weap_HellfireLauncher {}; 
+    class rhs_weap_HellfireLauncher: Missile_AGM_02_Plane_CAS_01_F {};
+	class RHS_weap_AGM114K_base_Launcher: rhs_weap_HellfireLauncher {};
+
     class RHS_weap_AGM114K_Launcher: RHS_weap_AGM114K_base_Launcher{
         weaponLockSystem = 0;
         canLock = 0;
@@ -62,4 +63,17 @@ class CfgWeapons {
 		modes[] = {"this"};
 		muzzles[] = {"this"};
     };
+
+    class RocketPods;
+    class rhs_weap_FFARLauncher: RocketPods {
+        modes[] = {"Single", "Burst"};
+    };
+    class rhs_weap_FFARLauncher_M229: rhs_weap_FFARLauncher {
+        modes[] = {"Single", "Burst"};
+    };
+
+    class rhs_weap_m197;
+    class rhs_weap_M230: rhs_weap_m197 {
+        modes[] = {"burst_all"};
+    }
 };
