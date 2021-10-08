@@ -29,3 +29,4 @@ class CfgPatches
 #include "CfgMagazines.hpp"
 #include "CfgWeapons.hpp"
 #include "CfgCloudlets.hpp"
+#include "CfgVehicles.hpp"
