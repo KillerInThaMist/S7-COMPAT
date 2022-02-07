@@ -14,17 +14,22 @@ class CfgAmmo {
 	};
 
 	// RHS American smoke grenades
-	class rhs_40mm_smoke_green: SmokeShellGreen {
+    class rhs_40mm_m713_red: SmokeShellRed {
 		simulation = "shotSmoke";
 		deflectionSlowDown = 0.25;
 	};
 
-	class rhs_40mm_smoke_red: SmokeShellRed {
+    class rhs_40mm_m713_white: SmokeShell {
 		simulation = "shotSmoke";
 		deflectionSlowDown = 0.25;
 	};
 
-	class rhs_40mm_smoke_white: SmokeShell {
+	class rhs_40mm_m715_green: SmokeShellGreen {
+		simulation = "shotSmoke";
+		deflectionSlowDown = 0.25;
+	};
+
+    class rhs_40mm_m716_yellow: SmokeShellYellow {
 		simulation = "shotSmoke";
 		deflectionSlowDown = 0.25;
 	};
