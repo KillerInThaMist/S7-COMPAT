@@ -2,6 +2,9 @@
 All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](http://semver.org/).
 
+## 1.3.0
+- Added logistic item changes to mod
+
 ## 1.2.1
 - Removal of UK3CB dependency
 
