@@ -4,6 +4,7 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 
 ## 1.3.0
 - Added logistic item changes to mod
+- Updated Wildcat Ace ammo
 
 ## 1.2.1
 - Removal of UK3CB dependency
