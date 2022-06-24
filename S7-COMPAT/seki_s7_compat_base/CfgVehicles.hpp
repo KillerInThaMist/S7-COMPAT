@@ -32,7 +32,9 @@ class CfgVehicles
         ace_dragging_dragPosition[] = {0, 2, 0};  // Offset of the model from the body while dragging (same as attachTo) (default: [0, 1.5, 0])
         ace_dragging_dragDirection = 0;  // Model direction while dragging (same as setDir after attachTo) (default: 0)
 		//Cargo
+		ace_cargo_canLoad = 1;
 		ace_cargo_size = 3;
+		ace_cargo_noRename = 0;
 	};
 	class Machine_base_F;
 	class Land_EngineCrane_01_F : Machine_base_F
@@ -43,7 +45,9 @@ class CfgVehicles
         ace_dragging_dragPosition[] = {0, 2, 0};  // Offset of the model from the body while dragging (same as attachTo) (default: [0, 1.5, 0])
         ace_dragging_dragDirection = 0;  // Model direction while dragging (same as setDir after attachTo) (default: 0)
 		//Cargo
+		ace_cargo_canLoad = 1;
 		ace_cargo_size = 8;
+		ace_cargo_noRename = 0;
 	};
 	class Box_NATO_AmmoVeh_F : NATO_Box_Base
 	{
@@ -53,7 +57,9 @@ class CfgVehicles
         ace_dragging_dragPosition[] = {0, 2, 0};  // Offset of the model from the body while dragging (same as attachTo) (default: [0, 1.5, 0])
         ace_dragging_dragDirection = 0;  // Model direction while dragging (same as setDir after attachTo) (default: 0)
 		//Cargo
+		ace_cargo_canLoad = 1;
 		ace_cargo_size = 5;
+		ace_cargo_noRename = 0;
 	};
 	class VirtualReammoBox_F;
 	class VirtualReammoBox_small_F : VirtualReammoBox_F
@@ -70,6 +76,8 @@ class CfgVehicles
         ace_dragging_carryDirection = 0;  // Model direction while dragging (same as setDir after attachTo) (default: 0)
 
 		//Cargo
+		ace_cargo_canLoad = 1;
 		ace_cargo_size = 2;
+		ace_cargo_noRename = 0;
 	};
 }
