@@ -6,13 +6,18 @@ class CfgAmmo {
 	class SmokeShellPurple;
 	class SmokeShellRed;
 	class SmokeShellYellow;
-
+	class FIR_AWS_AerobaticSmoke_White;
+    
 	// Vanilla 40mm smoke nades
 	class G_40mm_Smoke: SmokeShell {
 		simulation = "shotSmoke";
 		deflectionSlowDown = 0.25;
 	};
 
+	class FIR_AWS_SmokeShell: FIR_AWS_AerobaticSmoke_White {
+        effectsSmoke = "UK3CB_SmokeShellBlueEffect";
+        timeToLive = 120;
+	}
 	// RHS American smoke grenades
     class rhs_40mm_m713_red: SmokeShellRed {
 		simulation = "shotSmoke";
