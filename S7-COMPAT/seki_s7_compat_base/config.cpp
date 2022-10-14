@@ -13,7 +13,8 @@ class CfgPatches
 			"rhsusf_weapons2",
 			"rhsusf_weapons3",
 			"ace_missileguidance",
-			"ace_hellfire"
+			"ace_hellfire",
+			"ace_fortify"
 		};
 		author="SekiGamer";
 		units[] = {};
@@ -26,3 +27,4 @@ class CfgPatches
 #include "CfgWeapons.hpp"
 #include "CfgCloudlets.hpp"
 #include "CfgVehicles.hpp"
+#include "ACEX_Fortify_Presets.hpp"
