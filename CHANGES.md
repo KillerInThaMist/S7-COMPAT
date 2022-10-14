@@ -1,6 +1,11 @@
 # Release notes
 All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](http://semver.org/).
+## 1.4.0
+- Changed smoke pylon to use 3CB smokes (@pitrucha)
+- Added custom ace fortify preset
+- Added changes to crates for mechanized operations
+
 ## 1.3.1
 - Fixed repair crane not being loadable
 
