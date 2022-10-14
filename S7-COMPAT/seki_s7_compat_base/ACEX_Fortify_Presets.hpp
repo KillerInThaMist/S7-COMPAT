@@ -12,5 +12,5 @@ class ACEX_Fortify_Presets {
             {"Land_HBarrier_01_wall_corner_green_F", 25},
             {"Land_HBarrier_01_line_1_green_F", 5}
 		};
-	}
+	};
 }
