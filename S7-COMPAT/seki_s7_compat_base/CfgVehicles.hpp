@@ -80,7 +80,9 @@ class CfgVehicles
 		ace_cargo_size = 2;
 		ace_cargo_noRename = 0;
 	};
-	class B_CargoNet_01_ammo_F {
+	class CargoNet_01_ammo_base_F;
+	class B_CargoNet_01_ammo_F : CargoNet_01_ammo_base_F
+	{
 		// Dragging
 		ace_dragging_canDrag = 1;  // Can be dragged (0-no, 1-yes)
         ace_dragging_dragPosition[] = {0, 2, 0};  // Offset of the model from the body while dragging (same as attachTo) (default: [0, 1.5, 0])
