@@ -1,8 +1,12 @@
 # Release notes
 All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](http://semver.org/).
+## 1.4.1
+- Fixed syntax errors
+
 ## 1.4.0
 - Changed smoke pylon to use 3CB smokes (@pitrucha)
+- A few other pylon changes by (@pitrucha)
 - Added custom ace fortify preset
 - Added changes to crates for mechanized operations
 
