@@ -92,6 +92,7 @@ class CfgVehicles
         ace_dragging_canCarry = 1;  // Can be carried (0-no, 1-yes)
         ace_dragging_carryPosition[] = {0, 2, 0};  // Offset of the model from the body while dragging (same as attachTo) (default: [0, 1, 1])
         ace_dragging_carryDirection = 0;  // Model direction while dragging (same as setDir after attachTo) (default: 0)
-
+		
+		ace_cargo_space = 10;
 	};
 };
