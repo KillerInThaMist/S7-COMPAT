@@ -94,5 +94,8 @@ class CfgVehicles
         ace_dragging_carryDirection = 0;  // Model direction while dragging (same as setDir after attachTo) (default: 0)
 		
 		ace_cargo_space = 6;
+		ace_cargo_canLoad = 1;
+		ace_cargo_size = 6;
+		ace_cargo_noRename = 0;
 	};
 };
