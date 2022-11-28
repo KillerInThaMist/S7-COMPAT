@@ -2,7 +2,7 @@
 All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](http://semver.org/).
 
-##1.4.3
+## 1.4.3
 - Added 6 cargo spaces to cargo nets
 - Changed values for how long it takes to build ace fortify objects
 - Changed cargo size for Little Brids to 3
