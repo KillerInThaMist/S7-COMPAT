@@ -100,4 +100,9 @@ class CfgVehicles
 		ace_cargo_space = 6;
 		ace_cargo_hasCargo = 1;
 	};
+	class Helicopter_Base_H;
+	class RHS_MELB_base : Helicopter_Base_H
+	{
+		ace_cargo_space = 3;
+	}
 };
