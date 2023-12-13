@@ -103,6 +103,13 @@ class CfgVehicles
 	class Helicopter_Base_H;
 	class RHS_MELB_base : Helicopter_Base_H
 	{
-		ace_cargo_space = 3;
-	}
+		ace_cargo_space= 3;
+	};
+	class Heli_Transport_01_base_F;
+	class vtx_H60_base : Heli_Transport_01_base_F 
+	{
+		armor = 200;
+        type = 2;
+		threat[] = {1,1,0.5};
+	};
 };

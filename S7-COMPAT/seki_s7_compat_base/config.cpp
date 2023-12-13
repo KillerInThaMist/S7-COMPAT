@@ -14,7 +14,9 @@ class CfgPatches
 			"rhsusf_weapons3",
 			"ace_missileguidance",
 			"ace_hellfire",
-			"ace_fortify"
+			"ace_fortify",
+			"vtx_uh60"
+
 		};
 		author="SekiGamer";
 		units[] = {};

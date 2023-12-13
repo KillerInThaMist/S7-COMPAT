@@ -75,5 +75,5 @@ class CfgWeapons {
     class rhs_weap_m197;
     class rhs_weap_M230: rhs_weap_m197 {
         modes[] = {"burst_all"};
-    }
+    };
 };
