@@ -2,6 +2,10 @@
 All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](http://semver.org/).
 
+## 1.5
+- Made Hatchet H-60 required
+- Added fix for AI not locking onto Hatchet helicopters
+
 ## 1.4.3
 - Added 6 cargo spaces to cargo nets
 - Changed values for how long it takes to build ace fortify objects
