@@ -10,7 +10,9 @@ class ACEX_Fortify_Presets {
 			{"Land_HBarrierTower_F", 60},
             {"Land_HBarrierWall4_F", 8},
             {"Land_HBarrierWall_corner_F", 8},
-            {"Land_HBarrier_1_F", 5}
+            {"Land_HBarrier_1_F", 5},
+			{"Land_PortableLight_double_F",5}
+			{"Tarp_01_Large_Red_F",5}
 		};
 	};
 };
